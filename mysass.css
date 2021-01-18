@@ -1,0 +1,94 @@
+/************ layout system ****************/
+.maincontainer {
+  width: 1200px;
+}
+
+/*********** Mobil Screen ******************/
+@media (max-width: 992) {
+  .maincontainer {
+    width: 100%;
+  }
+}
+
+/*********** Desktop Screen ***************/
+@media (min-width: 992px) and (max-width: 1440) {
+  .maincontainer {
+    width: 992px;
+  }
+}
+
+/***************** Utilities *************/
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mr0 {
+  margin-right: 0;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.mxauto {
+  margin: 0 auto;
+}
+
+.myauto {
+  margin: auto 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.pxauto {
+  padding: 0 auto;
+}
+
+.pyauto {
+  padding: auto 0;
+}
+
+.class {
+  border: red;
+  background-color: palegreen;
+  color: #e21192;
+  height: 100px;
+  font-size: 40px;
+}
+
+.btn {
+  border: red;
+  background-color: palegreen;
+  color: #e21192;
+  height: 100px;
+  font-size: 40px;
+  height: 200px !important;
+  padding-top: 80px;
+}
+/*# sourceMappingURL=mysass.css.map */
